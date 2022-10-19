@@ -1,4 +1,5 @@
 # Folder structure
+```shell
 WORKING DIRECTORY
 ├───setup.py
 ├───package
@@ -12,3 +13,4 @@ WORKING DIRECTORY
     └───subpackage
         ├───__init__.py
         └───main.py
+```
