@@ -8,7 +8,7 @@ Data science cheat sheet
 * [How to draw Mermaid diagrams with Markdown?](https://mermaid-js.github.io/mermaid/#/)
 
 ## Python
-* [How to create a Python package]()
+* [How to create a Python package](./python_packages.md)
 
 ## Vim
 * [Vim cheat sheet](https://vim.rtorr.com/)
