@@ -33,6 +33,7 @@ Type
 `d<number>w`| Delete N words
 `<number><h/j/k/l>` | Go `<left/down/up|right>` N lines
  `vi ~/.vimrc` |  Open this file to save your settings
+ `:s-\\-<new character>` | To replace all the `\` in the file.
 
 ## Example of a .vimrc file
 ```vim
