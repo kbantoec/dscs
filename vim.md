@@ -30,10 +30,11 @@ Type
 `y` | Copy (or "yank" in Vim language)
 `p` | Paste
 `dd`| Delete the entire current line
-`d<number>w`| Delete N words
-`<number><h/j/k/l>` | Go `<left/down/up|right>` N lines
+`d<number>w`| Delete N words (forward)
+`<number><h/j/k/l>` | Go `<left/down/up/right>` N lines
  `vi ~/.vimrc` |  Open this file to save your settings
- `:s-\\-<new character>` | To replace all the `\` in the file.
+ `:s-\\-<new character>` | To replace all the `\` in the file. E.g., `:s-\\-/-g` to replace backslashes with slashes.
+ `ctrl + q` | To enter in visual Block mode in Windows
 
 ## Example of a .vimrc file
 ```vim
