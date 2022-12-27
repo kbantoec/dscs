@@ -6,3 +6,5 @@ The [official conda cheat sheet](https://docs.conda.io/projects/conda/en/4.6.0/_
 | - | - |
 where python | Find Python paths, including conda virtual environment
 conda search PACKAGENAME | Search for a package with conda, including `conda search python`
+`conda config --show channels` | to view your configuration's current state
+`conda config --show-sources` | to view config file locations
