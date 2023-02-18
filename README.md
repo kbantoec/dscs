@@ -1,6 +1,8 @@
 # dscs
 Data science cheat sheet
 
+* [CMD cheat sheet](./windows_cmd.md)
+
 # Links
 
 ## Markdown
@@ -13,5 +15,4 @@ Data science cheat sheet
 ## Vim
 * [Vim cheat sheet](https://vim.rtorr.com/)
 * [Why I Love Using Vim To Write Code](https://youtu.be/o4X8GU7CCSU)
-
 

@@ -20,3 +20,6 @@
 | `netstat -o` | ID for your connections |
 | `route print` | Prints the route table |
 | `shutdown` | Shut down your computer |
+
+## Videos
+* [40 Windows Commands you NEED to know (in 10 Minutes)](https://www.youtube.com/watch?v=Jfvg3CS1X3A)
