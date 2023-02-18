@@ -12,10 +12,23 @@ CREATE TABLE `personalfinance`.`DIMPRDCATEGORY` (
 
 ```sql
 SELECT
-  cat.ID,
-  cat.NAME AS SUPERCATEGORY_NAME,
-  scat.NAME AS CATEGORY_NAME
+  cat1.ID,
+  cat1.NAME AS CATEGORY_NAME_1,
+  cat2.NAME AS CATEGORY_NAME_2,
+  cat3.NAME AS CATEGORY_NAME_3
 FROM
-  personalfinance.DIMPRDCATEGORY cat
-  LEFT JOIN personalfinance.DIMPRDCATEGORY scat ON cat.ID = scat.SUPERCATEGORYID;
-```	
+  personalfinance.DIMPRDCATEGORY cat1
+  LEFT JOIN personalfinance.DIMPRDCATEGORY cat2 ON cat1.ID = cat2.SUPERCATEGORYID
+  LEFT JOIN personalfinance.DIMPRDCATEGORY cat3 ON cat2.ID = cat3.SUPERCATEGORYID
+WHERE 1=1
+AND cat1.SUPERCATEGORYID IS NULL
+ORDER BY
+ 1, 2, 3, 4;
+```
+
+How to change (update) a value in a table:
+```sql
+UPDATE personalfinance.DIMPRDCATEGORY
+SET `SUPERCATEGORYID` = 1
+WHERE `NAME` = 'health insurance';
+```
