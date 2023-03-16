@@ -28,6 +28,7 @@ Type
 `i`| Turn into insert mode
 `v` | Visual mode (used for selection)
 `y` | Copy (or "yank" in Vim language)
+`y<number>e` | Copy the next N words
 `p` | Paste
 `dd`| Delete the entire current line
 `d<number>w`| Delete N words (forward)
